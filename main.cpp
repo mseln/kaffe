@@ -27,7 +27,7 @@ int main(){
     window.setPosition(sf::Vector2i(desktop.width  * 1/8, 
                                     desktop.height * 1/16));
 
-    window.SetFramerateLimit(60);
+    window.setFramerateLimit(60);
 
     main_loop(&window);
 

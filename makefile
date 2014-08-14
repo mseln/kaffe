@@ -4,7 +4,7 @@ LDFLAGS=
 MODULES=-lsfml-graphics -lsfml-window -lsfml-system
 SOURCES=main.cpp loop.h loop.cpp menu.h menu.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-	EXECUTABLE=kaffe
+	EXECUTABLE=kaffe.app
 
 all: $(SOURCES) $(EXECUTABLE)
 		
