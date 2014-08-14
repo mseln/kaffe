@@ -19,3 +19,10 @@
 *.exe
 *.out
 *.app
+
+# Mac (Desktop Services Store)
+.DS_Store
+
+# Vim 
+*~
+*.swp
