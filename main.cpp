@@ -1,4 +1,6 @@
 /*
+ * main.cpp
+ *
  * Kaffe Simple 2d GameEngine 
  * Magnus Selin
  * mseln@github
@@ -13,8 +15,8 @@
 /*
  * Kaffe includes
  */
-#include "loop.h"
-#include "menu.h"
+#include "loop.hpp"
+#include "menu.hpp"
 
 int main(){
     // Create a window with the same pixel depth as the desktop
@@ -28,6 +30,7 @@ int main(){
                                     desktop.height * 1/16));
 
     window.setFramerateLimit(60);
+
 
     main_loop(&window);
 

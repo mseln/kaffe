@@ -2,7 +2,7 @@ CC=g++
 CFLAGS=-c -Wall
 LDFLAGS= 
 MODULES=-lsfml-graphics -lsfml-window -lsfml-system
-SOURCES=main.cpp loop.h loop.cpp menu.h menu.cpp
+SOURCES=main.cpp loop.hpp loop.cpp menu.hpp menu.cpp game_states.hpp
 OBJECTS=$(SOURCES:.cpp=.o)
 	EXECUTABLE=kaffe.app
 
